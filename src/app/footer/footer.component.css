@@ -7,9 +7,14 @@
 }
 
 #firstpart{
+    cursor:pointer;
     display: flex;
     justify-content: space-between;
     padding-left:50px;
     padding-right:50px;
     padding-top: 40px;
+    color: #666;
+}
+.secondpart{
+    display:flex;
 }

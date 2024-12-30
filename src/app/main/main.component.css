@@ -1,0 +1,47 @@
+.firstsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    color: #424242;
+}
+#signup_btn{
+    background-color: #387ed1;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#signup_btn:hover{
+    background-color: #424242;
+}
+.secondsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    color: #424242;
+}
+#news{
+    display: block;
+    margin: auto;
+}
+.thirdsection{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 60px;
+    color: #424242;
+}
+.pricing{
+    display: flex;
+}
+#price{
+    display:flex;
+    align-items: center;
+}
+#link{
+    text-decoration: none;
+    font-size: 18px;
+}
