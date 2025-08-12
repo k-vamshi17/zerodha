@@ -21,7 +21,7 @@ pipeline {
 
         stage('Build Angular App') {
             steps {
-                sh 'ng build --configuration production'
+                sh 'ng build '
             }
         }
 
@@ -29,6 +29,7 @@ pipeline {
             steps {
                 // Example: Copy to a folder on server (adjust to your setup)
                 sh 'cp -r dist/zerodha/* /var/www/html/'
+              sh 'ng test'
             }
         }
     }
