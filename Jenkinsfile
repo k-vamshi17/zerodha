@@ -28,7 +28,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 // Example: Copy to a folder on server (adjust to your setup)
-                sh 'cp -r dist/* /var/www/html/'
+                sh 'cp -r dist/zerodha/* /var/www/html/'
             }
         }
     }
