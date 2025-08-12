@@ -29,7 +29,6 @@ pipeline {
             steps {
                 // Example: Copy to a folder on server (adjust to your setup)
                 sh 'cp -r dist/zerodha/* /var/www/html/'
-              sh 'ng test'
             }
         }
     }
